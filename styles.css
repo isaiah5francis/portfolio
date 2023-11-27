@@ -1,15 +1,15 @@
 * { 
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 body{
     margin: 0px;
-    background-color: grey;
+    background-color: #071013;
 }
 
 a{
     text-decoration: none;
-    color: rgb(138, 41, 41);
+    color: #EB5160;
 }
 
 main{
@@ -19,10 +19,16 @@ main{
 
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(110, 110, 110);
-    padding: 2px;
-    margin: 0px;
+    background-color: #DFE0E2;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 150px;
+    margin-right: 150px;
     overflow: hidden;
+    text-align: center;
+    
 }
 
 .navbar li{
@@ -30,7 +36,7 @@ main{
 }
 
 .navbar a{
-    color: white;
+    color: #EB5160;
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -38,52 +44,49 @@ main{
 }
 
 .navbar a:hover{
-    background-color: rgb(20, 20, 20);
+    background-color: #AAAAAA;
 }
 
-div img{
-    display: flex;
-    width: 40%;
+section {
+    display: block;
+    width: fit-content;
     height: auto;
-    flex-wrap: wrap;
-}
-
-.grid {
-    flex: 50%;
-    padding: 0 4px;
-  }
-  
-  .grid img {
+    width: 70%;
     margin-top: 8px;
-    vertical-align: middle;
-  }
+}
+.grid img {
+    display: block;
+    width: fit-content;
+    height: auto;
+    width: 70%;
+    margin-top: 8px;
+}
 
 p {
-    color: rgb(0, 0, 0);
+    color: #AAAAAA;
 }
 
 h1 {
-    
-    color: rgb(255, 255, 255);
+    color: #EB5160;
     text-align: center;
 }
 
 h2 {
-    color: rgb(46, 45, 45);
+    color: #B7999C;
 }
 
 h3 {
-    color: rgb(46, 45, 45);
+    color: #B7999C;
 }
 
 table td{
-    color: white;
+    color: #EB5160;
     margin: 50px;
     padding: 10px;
     border: solid;
 }
 table th{
-    color: white;
+    color: #AAAAAA;
     margin: 5px;
     padding: 5px;
     border: solid;
@@ -91,4 +94,5 @@ table th{
 
 footer{
     text-align: center;
+    color: #DFE0E2;
 }
